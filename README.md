@@ -36,19 +36,15 @@ African health and economic data (500 samples, 16 features)
 pip install -r requirements.txt
 ```
 
-## Rubric Compliance (15/15 points)
-✅ **Data Handling (5pts)**: Missing values shown and handled, categorical encoding  
-✅ **Explained Variance (5pts)**: Correctly calculated and sorted descending  
-✅ **Visualization (5pts)**: Before/After PCA plots with variance labels
-
 ## Project Structure
 ```
 pca-assignment/
-│
-├── PCA_Implementation.ipynb    # Main notebook with PCA implementation
-├── README.md                   # This file
-├── requirements.txt            # Python dependencies
-└── data/                       # Folder for datasets (create if needed)
+├── .gitignore                          # Git ignore file
+├── PCA_Implementation.ipynb            # Main Colab notebook with PCA implementation
+├── README.md                           # Project documentation
+├── african_health_economic_data.csv    # Dataset (500 samples, 16 features)
+├── generate_sample_data.py             # Script to regenerate the dataset
+└── requirements.txt                    # Python dependencies
 ```
 
 ## Assignment Tasks
@@ -110,11 +106,6 @@ data = pd.read_csv('your_data.csv')
 3. **Scree plot**: Visualization of explained variance per component
 4. **Before/After PCA plots**: Original vs transformed feature space
 5. **Performance metrics**: Execution time and memory usage
-
-## Grading Criteria
-- **Data Handling (5 pts)**: Proper handling of missing values and non-numeric data
-- **Explained Variance (5 pts)**: Correct calculation and component selection
-- **Visualization (5 pts)**: Clear before/after PCA plots with proper labels
 
 ## Troubleshooting
 
