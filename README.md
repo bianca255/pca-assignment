@@ -27,7 +27,7 @@ African health and economic data (500 samples, 16 features)
 - **Implementation accuracy**: 100% match with sklearn
 
 ## Quick Start
-1. Open the Colab notebook: [PCA_Implementation.ipynb](https://drive.google.com/file/d/1emt0c2fp7_czi9CkmaQ_jBysj1_8fmTG/view?usp=sharing)
+1. Open the Colab notebook: [PCA_Implementation.ipynb](https://colab.research.google.com/drive/1P-wIsqsMLHayOH7aG3voK9H104mWxgeJ?usp=sharing)
 2. Upload `african_health_economic_data.csv` when prompted
 3. Run all cells sequentially
 
